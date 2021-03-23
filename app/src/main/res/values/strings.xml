@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DataBindingSample</string>
+    <string name="username">User name </string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="remember_me">Remember me</string>
+    <string name="error_password_short">Error !! You have entered short password. </string>
+    <string name="error_password_long">Error !! You have entered long password. </string>
+    <string name="error_username_short">Error !! You have entered short username. </string>
+    <string name="error_username_long">Error !! You have entered long username. </string>
+</resources>
