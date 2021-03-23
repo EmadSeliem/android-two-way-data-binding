@@ -1,7 +1,6 @@
 # two-way-data-binding
 
-Login screen is one of the most importants screens that most of applications have, usually we need avlidations on fileds and before we are using textwacthers 
-to listen for changes on EditText and dispaly errors on TextInputLayout.
+Login screen is one of the most important screens that most of applications have, to do a sample validations on fields like watching text cahnge on Editetxt we are using textwacthers . But with data binding we can do this validation on sample and organized way.
 
 So I created this sample project to explian how we can do validations for different views using two way data binind and Binding adapters.
 
