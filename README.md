@@ -2,7 +2,8 @@
 # two-way-data-binding
 
 
-![github](https://user-images.githubusercontent.com/17107040/112353389-21f47380-8ce5-11eb-9c05-8a1dc4bb8906.gif)
+
+<img src="![github](https://user-images.githubusercontent.com/17107040/112353389-21f47380-8ce5-11eb-9c05-8a1dc4bb8906.gif)" width="100" height="100">
 
 Login screen is one of the most important screens that most of applications have, to do a sample validations on fields like watching text cahnge on Editetxt we are using textwacthers . But with data binding we can do this validation on sample and organized way.
 
