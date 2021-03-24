@@ -1,4 +1,8 @@
+
 # two-way-data-binding
+
+
+![github](https://user-images.githubusercontent.com/17107040/112353389-21f47380-8ce5-11eb-9c05-8a1dc4bb8906.gif)
 
 Login screen is one of the most important screens that most of applications have, to do a sample validations on fields like watching text cahnge on Editetxt we are using textwacthers . But with data binding we can do this validation on sample and organized way.
 
@@ -20,9 +24,9 @@ And by using Binding adapter we can bind this validation to our XML
     @BindingAdapter("validatePassword")
     fun validatePassword(
         passwordTextInputLayout: TextInputLayout,
-        passwordValidation: LoginActivityViewModel.PasswordValidationCriteria
+        password: LoginActivityViewModel.PasswordValidationCriteria
     ) {
-        when (passwordValidation) {
+        when (password) {
             LoginActivityViewModel.PasswordValidationCriteria.SHORT_PASSWORD ->
                 passwordTextInputLayout.error =
                     passwordTextInputLayout.context.getString(R.string.error_password_short)
